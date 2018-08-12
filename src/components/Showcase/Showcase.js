@@ -26,7 +26,7 @@ class showcase extends Component {
           transitionDuration={1000}
         />
             <h1>Välkommen till</h1>
-            <h1>King's Salong</h1>
+            <h1 className="h1bot">King's Salong</h1>
             
           </header>
         );

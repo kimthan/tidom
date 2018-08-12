@@ -6,9 +6,11 @@
 .map iframe{
     width:100%;
     height:200px;
+    
 }
 
-.adress p{
+.adress h1, p{
     margin: 0;
     padding: 0;
+    
 }

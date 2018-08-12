@@ -1,22 +1,27 @@
-.bild-container{
-    box-sizing: border-box;
+.bild-container h1{
+ 
 }
 
 .bilder-section {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-   
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+   grid-gap: 10px;
+   padding: 10px;
     width: 100%;
     justify-content: space-between;
-    box-sizing: border-box;
+   
 }
 
-.bild img {
-    min-width: 100%;
-    width:150px;
- padding: 20px;
+.bild {
+    min-width:50px;
+    max-width: 300px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
     
-    box-sizing: border-box;
+}
+.bild img {
+
+    width: 100%;
+    
     
     
 }

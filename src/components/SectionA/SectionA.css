@@ -1,23 +1,24 @@
 .v-header{
-    height: 200px;
+    max-height: 300px;
     width: 100%;
+   
 }
 
 .container{
     max-width: 960px;
-    padding-left: 1rem;
-    padding-right: 1rem;
+   
     margin: auto;
     text-align: center;
     width: 100%;
 }
 
 .fullscreen-video-wrap{
-   
+    width:100%;
     overflow: hidden;
 }
 
-.fullscreen-video-wrap video {
-    width:100%;
+ iframe {
+    width:95%;
+    height:100%;
    
 }
