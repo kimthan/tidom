@@ -22,12 +22,13 @@ class showcase extends Component {
             <header id="showcase" className="grid">
              <Slide
           images={images}
-          duration={1000}
-          transitionDuration={1000}
+          duration={2000}
+          transitionDuration={800}
         />
             <h1>Välkommen till</h1>
-            <h1 className="h1bot">King's Salong</h1>
-            
+            <h1 className="">King's Salong</h1>
+            <div className="h1bot"><button className="myButton ">Boka Tid</button>
+                </div>
           </header>
         );
     }
