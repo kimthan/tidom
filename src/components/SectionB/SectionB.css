@@ -1,0 +1,28 @@
+.bild-container{
+    box-sizing: border-box;
+}
+
+.bilder-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+    width: 100%;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.bild img {
+    min-width: 100%;
+    width:150px;
+ padding: 20px;
+    
+    box-sizing: border-box;
+    
+    
+}
+
+.bild p {
+    margin-top: 0;
+    padding-top: 0;
+
+}
